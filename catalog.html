@@ -22,83 +22,137 @@
     <li><a href="http://anna-v.github.io/nerds/index.html#">корзина</a></li>
     </ul>
     </nav>
-     <h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН ГОТОВЫХ МАКЕТОВ</h1>
+     <h1>МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
   </header>
   <main>
     <section>
+      <form>
       <fieldset>
         <legend>СТОИМОСТЬ:</legend>
-        <form id="cost">
       15<input type="range" (15 to 15000) min="15" max="15000"/>15000<br>
-      
-      </form>
-    </fieldset>  
-  
-<fieldset>
-  <legend>СЕТКА:</legend>
-  <form Id="grid">
-  <p><input id="setka" type="radio" name="setka">Адаптивная</p>
-  <p><input type="radio" name="setka">Фиксированная</p>
-  <p><input type="radio" name="setka">Резиновая</p>
-  </form>
+      <label for="from">от</label>
+      <input type="text" placeholder="0" id="from">
+      <!-- Возможно ли такое, что сначала label, а потом inpit?-->
+      <label for="till">до</label>
+      <input type="text" placeholder="15000" id="till">
+      </fieldset>  
+  <fieldset>
+   <legend>СЕТКА:</legend>
+  <p><input name="greed" type="radio" value="adaptiv" >Адаптивная</p>
+  <p><input name="greed" type="radio" value="fixed">Фиксированная</p>
+  <p><input name="greed" type="radio" value="ribbon">Резиновая</p>
 </fieldset>
 
 <fieldset>
   <legend>ОСОБЕННОСТИ:</legend>
-  <form id="feature">
-  <p><input id ="sp" type="checkbox" name="setka">Слайдер</p>
-  <p><input id ="sp" type="checkbox" name="setka">Блок преимуществ</p>
-  <p><input id ="sp" type="checkbox" name="setka">Новости</p>
- <p><input id ="sp" type="checkbox" name="setka">Галерея</p>
- <p><input id ="sp" type="checkbox" name="setka">Корзина</p>
- </form>
+  
+  <p><input name="feature" type="checkbox" >Слайдер</p>
+  <p><input name="feature" type="checkbox" >Блок преимуществ</p>
+  <p><input name="feature" type="checkbox" >Новости</p>
+ <p><input  name="feature" type="checkbox" >Галерея</p>
+ <p><input name="feature" type="checkbox" >Корзина</p>
 </fieldset>
-<form>
-  <button type="submit" form="cost" form="grid" form="feture">ПОКАЗАТЬ</button>
+
+  <input type="submit" value="ПОКАЗАТЬ">
 </form>
 </section>
   <section>
-    <h2>СОРТИРОВАТЬ:</h2>
-    <ul>
-      <li>по цене</li>
-      <li>по типу</li>
-      <li>по функционалу</li>
-    </ul>
-    <p><img src="1.png"></p>
-<p><img src="2.png"></p>
-<p><img src="3.png"></p>
-<p><img src="4.png"></p>
-<p><img src="5.png"></p>
-<p><img src="6.png"></p> 
+    <header>
+      <h2>СОРТИРОВАТЬ:</h2>
+      <ul>
+      <li><a href="catalog.html"></a> по цене</li>
+      <li><a href="catalog.html"></a> по типу</li>
+      <li><a href="catalog.html"></a> по функционалу</li>
+      </ul>
+      <ul>
+      <li><a href="catalog.html"></a>&#11015;</li>
+      <li><a href="catalog.html"></a>&#11014;</li>
+      </ul>
+    </header>
   </section>
-<div class="pagination">
-  <a href="index.html">1</a>
-  <a href="index.html">2</a>
-  <a href="index.html">3</a>
-  <a href="index.html">Следующая</a>
-</div>
 
+  <section class="goods">
 
+    <article>
+      <img src="1.png" alt="senosa">
+      <div class="hover-block">
+        <h2>senoda</h2>
+        <p>информационный сайт для туристов</p>
+        <a href="index.html"></a>
+      </div>
+    </article>
 
+    <article>
+      <img src="2.png" alt="2">
+      <div class="hover-block">
+        <h2>Телефоны</h2>
+        <p>на любой вкус</p>
+        <a href="index.html"></a>
+      </div>
+    </article>
+    <article>
+      <img src="3.png" alt="3">
+      <div class="hover-block">
+        <h2>Бородински</h2>
+        <p>не хлеб</p>
+        <a href="index.html"></a>
+      </div>
+    </article>
+    <article>
+      <img src="4.png" alt="4">
+      <div class="hover-block">
+        <h2>Ручная работа</h2>
+        <p>вязаные корзинки</p>
+        <a href="index.html"></a>
+      </div>
+    </article>
+    <article>
+      <img src="5.png" alt="5">
+      <div class="hover-block">
+        <h2>Учёба</h2>
+        <p>ученье - свет</p>
+        <a href="index.html"></a>
+      </div>
+    </article>
+    <article>
+      <img src="6.png" alt="6">
+      <div class="hover-block">
+        <h2>Квас</h2>
+        <p>лучше,чем пиво</p>
+        <a href="index.html"></a>
+         <!-- текст hover выведен на сайт без наведения. Это нормально на этой стадии? -->
+
+      </div>
+    </article>
+    <div class="pagination">
+      <ul>
+        <li><a href="index.html">1</a></li>
+        <li><a href="index.html">2</a></li>
+        <li><a href="index.html">3</a></li>
+        <li><a href="index.html">Следующая</a></li>
+      </ul>
+     </div>
+  </section>
 </main>
 <footer>
-    <section> 
+  <section> 
       <img src="map.png" alt="map">
-      <h2>NЁRDS DESIGN STUDIO</h2>
-      <p>191186, Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</p>
-      <p>тел. +7 (812) 275-75-75</p>
-      <a href="index.html">Напишите нам</a>
     </section>
+<article>
+  <p>191186, Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</p>
+  <p>тел. +7 (812) 275-75-75</p>
+  <a href="index.html">Напишите нам</a>
+</article>
      <section> 
       <ul>
         <li><a href="https://vk.com/feed"><img src="vk.png"></a></li>
         <li><a href="https://www.facebook.com"><img src="f.png"></a></li>
         <li><a href="https://www.instagram.com"><img src="inst.png"></a></li>
       </ul>
-      </section>
-      <section>
+      <div>
         <p>Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей</p>
+      </div>
       </section>
   </footer>
   
