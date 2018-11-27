@@ -1,10 +1,10 @@
 header {
 	background-color: #EDEDED;
-	height: 200px;
+	min-height: 200px;
 }
 
 
-ul.main-navigation {
+.main-navigation {
   list-style: none; /*убираем маркеры списка*/
   margin: 0; /*убираем отступы*/
   padding-left: 0; /*убираем отступы*/
@@ -14,7 +14,7 @@ a {
 }
 a.main-navigation   {
 	
-  float:left; /*Размещаем список горизонтально для реализации меню*/
+  float:left;  /*Размещаем список горизонтально для реализации меню*/
   margin-right:20px; /*Добавляем отступ у пунктов меню*/
 }
 a.bucket {
@@ -24,12 +24,12 @@ a.bucket {
 	padding: 10px;
    width: 20% ;
    height: 20%;
-	display: block; /*не оплучается изменить длину и ширину у лого*/
+	
 	
 
 }
 
-.Dolgo {
+.dolgo {
 	
 }
 
@@ -39,22 +39,22 @@ a.bucket {
 	color: #F7FAF5;
 	background: #F71505;
 	text-transform: uppercase;
-	width: 100px;
-	height: 40px;
+	width: 300px;
+	height: 20px;
 	display: block; 
 	text-align: center;
-	line-height: 20px;
 	font-family: Arial, sans-serif;
-	position: relative;
+	
+	padding: 20px;	
 
 }
 
-h1.text {
+h1.text_doldo{
 	font-family: Roboto;
 	width: 100px;
 	font-size: 24px;
 }
-p.text1 {
+p.text_design {
 	font-family: Roboto;
 	width: 100px;
 	font-size: 16px;
