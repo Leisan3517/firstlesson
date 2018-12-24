@@ -30,6 +30,9 @@ a.bucket {
 }
 
 .dolgo {
+	display: inline-block;
+	width: auto;
+
 	
 }
 
@@ -58,4 +61,21 @@ p.text_design {
 	font-family: Roboto;
 	width: 100px;
 	font-size: 16px;
+}
+
+.zakaz {
+	display: inline-block;
+  vertical-align: bottom;
+  width: 100px;
+}
+
+.gordaya_studya {
+	display: inline-block;
+  vertical-align: top;
+  width: 400px;
+
+}
+
+.partners {
+	display: inline;
 }
